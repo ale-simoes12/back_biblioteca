@@ -1,4 +1,5 @@
 const fs = require("fs")
+const { json } = require("stream/consumers")
 
 function getTodosLivros() {
     return JSON.parse( fs.readFileSync("livros.json") )
@@ -11,10 +12,18 @@ function  getLivroById(id) {
 
 }
 
+function insereLivro(new_book){
+    const livros = JSON.parse( fs.readFileSync("livros.json"))
+    const novaListadeLivros =  [...livros,new_book]
+    fs.writeFileSync("livros.json" , JSON.stringify(novaListadeLivros) )
 
+       
+
+}
 
 
 module.exports =  {
     getTodosLivros,
-    getLivroById
+    getLivroById,
+    insereLivro
 }
