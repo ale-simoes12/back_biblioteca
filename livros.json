@@ -1,596 +1,528 @@
 [
     {
-        "id": "1",
-        "nome": "O Senhor dos Anéis: A Sociedade do Anel",
-        "autor": "J.R.R. Tolkien",
-        "editora": "HarperCollins"
-    },
-    {
-        "id": "2",
-        "nome": "1984",
+        "id": 1,
+        "titulo": "1984",
         "autor": "George Orwell",
+        "categoria": "Distopia",
         "editora": "Companhia das Letras"
     },
     {
-        "id": "3",
-        "nome": "O Pequeno príncipe",
-        "autor": "Antoine de Saint-Exupéry",
-        "editora": "Editora Agir"
+        "id": 2,
+        "titulo": "O Grande Gatsby",
+        "autor": "F. Scott Fitzgerald",
+        "categoria": "Clássico",
+        "editora": "Antofagasta"
     },
     {
-        "id": "4",
-        "nome": "Dom Casmurro",
-        "autor": "Machado de Assis",
-        "editora": "Livraria José Olympio Editora"
-    },
-    {
-        "id": "5",
-        "nome": "Harry Potter e a Pedra Filosofal",
-        "autor": "J.K. Rowling",
-        "editora": "Rocco"
-    },
-    {
-        "id": "6",
-        "nome": "O Código Da Vinci",
-        "autor": "Dan Brown",
-        "editora": "Arqueiro"
-    },
-    {
-        "id": "7",
-        "nome": "A Revolução dos Bichos",
-        "autor": "George Orwell",
-        "editora": "Companhia das Letras"
-    },
-    {
-        "id": "8",
-        "nome": "A Culpa é das Estrelas",
-        "autor": "John Green",
-        "editora": "Intrínseca"
-    },
-    {
-        "id": "9",
-        "nome": "Moby Dick",
-        "autor": "Herman Melville",
-        "editora": "Penguin Classics"
-    },
-    {
-        "id": "10",
-        "nome": "Cem Anos de Solidão",
-        "autor": "Gabriel García Márquez",
-        "editora": "Editora Record"
-    },
-    {
-        "id": "11",
-        "nome": "Sapiens: Uma Breve História da Humanidade",
-        "autor": "Yuval Noah Harari",
-        "editora": "Leya"
-    },
-    {
-        "id": "12",
-        "nome": "O Alquimista",
-        "autor": "Paulo Coelho",
-        "editora": "Rocco"
-    },
-    {
-        "id": "13",
-        "nome": "Grande Sertão: Veredas",
+        "id": 3,
+        "titulo": "Matar a Saudade",
         "autor": "João Guimarães Rosa",
-        "editora": "Nova Fronteira"
-    },
-    {
-        "id": "14",
-        "nome": "O Morro dos Ventos Uivantes",
-        "autor": "Emily Brontë",
-        "editora": "L&PM Editores"
-    },
-    {
-        "id": "15",
-        "nome": "Orgulho e Preconceito",
-        "autor": "Jane Austen",
-        "editora": "Penguin Classics"
-    },
-    {
-        "id": "16",
-        "nome": "O Apanhador no Campo de Centeio",
-        "autor": "J.D. Salinger",
-        "editora": "W.W. Norton & Company"
-    },
-    {
-        "id": "17",
-        "nome": "O Homem de Giz",
-        "autor": "C.J. Tudor",
-        "editora": "Intrínseca"
-    },
-    {
-        "id": "18",
-        "nome": "A Menina que Roubava Livros",
-        "autor": "Markus Zusak",
-        "editora": "Zahar"
-    },
-    {
-        "id": "19",
-        "nome": "O Hobbit",
-        "autor": "J.R.R. Tolkien",
-        "editora": "HarperCollins"
-    },
-    {
-        "id": "20",
-        "nome": "A Vida Invisível de Addie LaRue",
-        "autor": "V.E. Schwab",
-        "editora": "Arqueiro"
-    },
-    {
-        "id": "21",
-        "nome": "A Cabana",
-        "autor": "William P. Young",
-        "editora": "Sextante"
-    },
-    {
-        "id": "22",
-        "nome": "O Poder do Hábito",
-        "autor": "Charles Duhigg",
-        "editora": "Objetiva"
-    },
-    {
-        "id": "23",
-        "nome": "O Universo Numa Casca de Noz",
-        "autor": "Stephen Hawking",
-        "editora": "Intrínseca"
-    },
-    {
-        "id": "24",
-        "nome": "O Lobo de Wall Street",
-        "autor": "Jordan Belfort",
-        "editora": "Intrínseca"
-    },
-    {
-        "id": "25",
-        "nome": "Os Miseráveis",
-        "autor": "Victor Hugo",
-        "editora": "L&PM Editores"
-    },
-    {
-        "id": "26",
-        "nome": "A Garota no Trem",
-        "autor": "Paula Hawkins",
-        "editora": "Record"
-    },
-    {
-        "id": "27",
-        "nome": "O Último Pedido",
-        "autor": "Brandon Sanderson",
-        "editora": "Editora Aleph"
-    },
-    {
-        "id": "28",
-        "nome": "A Arte da Felicidade",
-        "autor": "Dalai Lama",
-        "editora": "Objetiva"
-    },
-    {
-        "id": "29",
-        "nome": "O Pintassilgo",
-        "autor": "Donna Tartt",
-        "editora": "Intrínseca"
-    },
-    {
-        "id": "30",
-        "nome": "Os 7 Hábitos das Pessoas Altamente Eficazes",
-        "autor": "Stephen Covey",
-        "editora": "BestSeller"
-    },
-    {
-        "id": "31",
-        "nome": "O Rei do Inverno",
-        "autor": "Bernard Cornwell",
-        "editora": "Record"
-    },
-    {
-        "id": "32",
-        "nome": "A Guerra dos Tronos",
-        "autor": "George R.R. Martin",
-        "editora": "LeYa"
-    },
-    {
-        "id": "33",
-        "nome": "O Senhor dos Anéis: As Duas Torres",
-        "autor": "J.R.R. Tolkien",
-        "editora": "HarperCollins"
-    },
-    {
-        "id": "34",
-        "nome": "O Senhor dos Anéis: O Retorno do Rei",
-        "autor": "J.R.R. Tolkien",
-        "editora": "HarperCollins"
-    },
-    {
-        "id": "35",
-        "nome": "A Insustentável Leveza do Ser",
-        "autor": "Milan Kundera",
+        "categoria": "Literatura Brasileira",
         "editora": "Companhia das Letras"
     },
     {
-        "id": "36",
-        "nome": "O Príncipe",
-        "autor": "Nicolau Maquiavel",
-        "editora": "Penguin Classics"
-    },
-    {
-        "id": "37",
-        "nome": "O Estrangeiro",
-        "autor": "Albert Camus",
-        "editora": "Editora Record"
-    },
-    {
-        "id": "38",
-        "nome": "A Filosofia Explicada aos Meus Filhos",
-        "autor": "José Pacheco",
-        "editora": "Editora Ática"
-    },
-    {
-        "id": "39",
-        "nome": "A Arte de Amar",
-        "autor": "Erich Fromm",
-        "editora": "Editora Paz e Terra"
-    },
-    {
-        "id": "40",
-        "nome": "A História da Arte",
-        "autor": "Ernst Gombrich",
-        "editora": "Editora LTC"
-    },
-    {
-        "id": "41",
-        "nome": "O Gene: Uma História Íntima",
-        "autor": "Siddhartha Mukherjee",
-        "editora": "Objetiva"
-    },
-    {
-        "id": "42",
-        "nome": "O Canto de Aquiles",
-        "autor": "Madeline Miller",
-        "editora": "Ciranda Cultural"
-    },
-    {
-        "id": "43",
-        "nome": "O Sol é Para Todos",
-        "autor": "Harper Lee",
-        "editora": "Record"
-    },
-    {
-        "id": "44",
-        "nome": "O Físico",
-        "autor": "Noah Gordon",
-        "editora": "Record"
-    },
-    {
-        "id": "45",
-        "nome": "O Jardim Secreto",
-        "autor": "Frances Hodgson Burnett",
-        "editora": "Martins Fontes"
-    },
-    {
-        "id": "46",
-        "nome": "A Cor Púrpura",
-        "autor": "Alice Walker",
-        "editora": "Rocco"
-    },
-    {
-        "id": "47",
-        "nome": "O Povo Brasileiro",
-        "autor": "Darcy Ribeiro",
-        "editora": "Companhia das Letras"
-    },
-    {
-        "id": "48",
-        "nome": "O Diário de Anne Frank",
-        "autor": "Anne Frank",
-        "editora": "Record"
-    },
-    {
-        "id": "49",
-        "nome": "O Que Eu Sei de Verdade",
-        "autor": "Oprah Winfrey",
-        "editora": "Objetiva"
-    },
-    {
-        "id": "50",
-        "nome": "A Casa dos Espíritos",
-        "autor": "Isabel Allende",
-        "editora": "Record"
-    },
-    {
-        "id": "51",
-        "nome": "O Hobbit",
-        "autor": "J.R.R. Tolkien",
-        "editora": "HarperCollins"
-    },
-    {
-        "id": "52",
-        "nome": "A História Sem Fim",
-        "autor": "Michael Ende",
-        "editora": "Editora Salamandra"
-    },
-    {
-        "id": "53",
-        "nome": "O Homem que Calculava",
-        "autor": "Malba Tahan",
-        "editora": "Record"
-    },
-    {
-        "id": "54",
-        "nome": "Sombra e Ossos",
-        "autor": "Leigh Bardugo",
-        "editora": "Galera Record"
-    },
-    {
-        "id": "55",
-        "nome": "Harry Potter e a Câmara Secreta",
-        "autor": "J.K. Rowling",
-        "editora": "Rocco"
-    },
-    {
-        "id": "56",
-        "nome": "Harry Potter e o Prisioneiro de Azkaban",
-        "autor": "J.K. Rowling",
-        "editora": "Rocco"
-    },
-    {
-        "id": "57",
-        "nome": "Harry Potter e o Cálice de Fogo",
-        "autor": "J.K. Rowling",
-        "editora": "Rocco"
-    },
-    {
-        "id": "58",
-        "nome": "Harry Potter e a Ordem da Fênix",
-        "autor": "J.K. Rowling",
-        "editora": "Rocco"
-    },
-    {
-        "id": "59",
-        "nome": "Harry Potter e o Enigma do Príncipe",
-        "autor": "J.K. Rowling",
-        "editora": "Rocco"
-    },
-    {
-        "id": "60",
-        "nome": "Harry Potter e as Relíquias da Morte",
-        "autor": "J.K. Rowling",
-        "editora": "Rocco"
-    },
-    {
-        "id": "61",
-        "nome": "A Metamorfose",
-        "autor": "Franz Kafka",
-        "editora": "L&PM Editores"
-    },
-    {
-        "id": "62",
-        "nome": "O Conto da Aia",
-        "autor": "Margaret Atwood",
-        "editora": "Rocco"
-    },
-    {
-        "id": "63",
-        "nome": "A Guerra dos Tronos",
-        "autor": "George R.R. Martin",
-        "editora": "LeYa"
-    },
-    {
-        "id": "64",
-        "nome": "O Pequeno Príncipe",
-        "autor": "Antoine de Saint-Exupéry",
-        "editora": "Editora Agir"
-    },
-    {
-        "id": "65",
-        "nome": "O Circo da Noite",
-        "autor": "Erin Morgenstern",
-        "editora": "Intrínseca"
-    },
-    {
-        "id": "66",
-        "nome": "O Oceano no Fim do Caminho",
-        "autor": "Neil Gaiman",
-        "editora": "Intrínseca"
-    },
-    {
-        "id": "67",
-        "nome": "O Último Desejo",
-        "autor": "Andrzej Sapkowski",
-        "editora": "Editora Fantasy"
-    },
-    {
-        "id": "68",
-        "nome": "A Guerra dos Tronos",
-        "autor": "George R.R. Martin",
-        "editora": "LeYa"
-    },
-    {
-        "id": "69",
-        "nome": "O Destino de Uma Nação",
-        "autor": "Janet Dailey",
-        "editora": "HarperCollins"
-    },
-    {
-        "id": "70",
-        "nome": "Cinquenta Tons de Cinza",
-        "autor": "E.L. James",
-        "editora": "Intrínseca"
-    },
-    {
-        "id": "71",
-        "nome": "O Nome do Vento",
-        "autor": "Patrick Rothfuss",
-        "editora": "Editoras Rocco"
-    },
-    {
-        "id": "72",
-        "nome": "Os Homens que Não Amavam as Mulheres",
-        "autor": "Stieg Larsson",
-        "editora": "Cia. das Letras"
-    },
-    {
-        "id": "73",
-        "nome": "O Segredo",
-        "autor": "Rhonda Byrne",
-        "editora": "Rocco"
-    },
-    {
-        "id": "74",
-        "nome": "O Psicólogo",
-        "autor": "Dr. Roy L. Miller",
-        "editora": "Editora Abril"
-    },
-    {
-        "id": "76",
-        "nome": "Reflexões Sobre a Vida",
-        "autor": "Antoine de Saint-Exupéry",
-        "editora": "Agir"
-    },
-    {
-        "id": "77",
-        "nome": "O Evangelho de Jesus Cristo",
-        "autor": "João de Jesus",
-        "editora": "Paz e Terra"
-    },
-    {
-        "id": "78",
-        "nome": "O Algoritmo de Deus",
-        "autor": "João de Sousa",
-        "editora": "Estação"
-    },
-    {
-        "id": "79",
-        "nome": "O Segredo da Borboleta",
-        "autor": "Clarice Lispector",
-        "editora": "Zahar"
-    },
-    {
-        "id": "80",
-        "nome": "A Noite",
-        "autor": "Elie Wiesel",
-        "editora": "Companhia das Letras"
-    },
-    {
-        "id": "81",
-        "nome": "O Livro das Sombras",
-        "autor": "Ralph Ellis",
-        "editora": "Arqueiro"
-    },
-    {
-        "id": "82",
-        "nome": "A História de um Amor Impossível",
-        "autor": "Luciana Vendramini",
-        "editora": "Sextante"
-    },
-    {
-        "id": "83",
-        "nome": "O Fio da Navalha",
-        "autor": "Somerset Maugham",
-        "editora": "Record"
-    },
-    {
-        "id": "84",
-        "nome": "A Carta Esférica",
-        "autor": "Javier Cercas",
-        "editora": "Cia. das Letras"
-    },
-    {
-        "id": "85",
-        "nome": "O Casamento",
-        "autor": "Nicholas Sparks",
-        "editora": "Arqueiro"
-    },
-    {
-        "id": "86",
-        "nome": "O Livro de Ouro",
-        "autor": "Vários",
-        "editora": "Alta"
-    },
-    {
-        "id": "87",
-        "nome": "O Vendedor de Sonhos",
-        "autor": "Augusto Cury",
-        "editora": "Sextante"
-    },
-    {
-        "id": "88",
-        "nome": "O Casamento do Ano",
-        "autor": "José Carlos Cossio",
-        "editora": "Rocco"
-    },
-    {
-        "id": "89",
-        "nome": "O Milagre edição 1",
-        "autor": "Emmanuelle Charpentier",
-        "editora": "Sextante"
-    },
-    {
-        "id": "90",
-        "nome": "A Herança",
-        "autor": "David Baldacci",
-        "editora": "Record"
-    },
-    {
-        "id": "91",
-        "nome": "O Peão",
-        "autor": "Gustavo Rúbia",
-        "editora": "Sextante"
-    },
-    {
-        "id": "92",
-        "nome": "A Sombra de Outono",
-        "autor": "Sylvia Plath",
-        "editora": "Intrínseca"
-    },
-    {
-        "id": "93",
-        "nome": "O Sol Nascente",
-        "autor": "Arthur C. Clarke",
-        "editora": "Vermelho"
-    },
-    {
-        "id": "94",
-        "nome": "O Poço e a Páscoa",
-        "autor": "Paulo Coelho",
-        "editora": "Rocco"
-    },
-    {
-        "id": "95",
-        "nome": "Os Nossos Pais",
-        "autor": "Frederico de Albuquerque",
-        "editora": "Alta"
-    },
-    {
-        "id": "96",
-        "nome": "O Mercado",
-        "autor": "Nuno Silva",
-        "editora": "Urbana"
-    },
-    {
-        "id": "97",
-        "nome": "A Estrada",
-        "autor": "Cormac McCarthy",
-        "editora": "Companhia das Letras"
-    },
-    {
-        "id": "98",
-        "nome": "A Sombra do Vento",
-        "autor": "Carlos Ruiz Zafón",
-        "editora": "Suma"
-    },
-    {
-        "id": "99",
-        "nome": "O Mágico de Oz",
-        "autor": "L. Frank Baum",
+        "id": 4,
+        "titulo": "A Arte da Guerra",
+        "autor": "Sun Tzu",
+        "categoria": "Filosofia",
         "editora": "L&PM"
     },
     {
-        "id": "100",
-        "nome": "O Fim do Mundo",
-        "autor": "Luciana Paiva",
-        "editora": "Editorial"
+        "id": 5,
+        "titulo": "O Pequeno Príncipe",
+        "autor": "Antoine de Saint-Exupéry",
+        "categoria": "Infantil",
+        "editora": "Editora Agir"
+    },
+    {
+        "id": 6,
+        "titulo": "Dom Quixote",
+        "autor": "Miguel de Cervantes",
+        "categoria": "Clássico",
+        "editora": "Editora Abril"
+    },
+    {
+        "id": 7,
+        "titulo": "Os Miseráveis",
+        "autor": "Victor Hugo",
+        "categoria": "Romance",
+        "editora": "Editora Zahar"
+    },
+    {
+        "id": 8,
+        "titulo": "O Senhor dos Anéis",
+        "autor": "J.R.R. Tolkien",
+        "categoria": "Fantasia",
+        "editora": "Martins Fontes"
+    },
+    {
+        "id": 9,
+        "titulo": "Orgulho e Preconceito",
+        "autor": "Jane Austen",
+        "categoria": "Romance",
+        "editora": "Martin Claret"
+    },
+    {
+        "id": 10,
+        "titulo": "O Código Da Vinci",
+        "autor": "Dan Brown",
+        "categoria": "Suspense",
+        "editora": "Arqueiro"
+    },
+    {
+        "id": 11,
+        "titulo": "Harry Potter e a Pedra Filosofal",
+        "autor": "J.K. Rowling",
+        "categoria": "Fantasia",
+        "editora": "Rocco"
+    },
+    {
+        "id": 12,
+        "titulo": "O Hobbit",
+        "autor": "J.R.R. Tolkien",
+        "categoria": "Fantasia",
+        "editora": "HarperCollins Brasil"
+    },
+    {
+        "id": 13,
+        "titulo": "A Menina que Roubava Livros",
+        "autor": "Markus Zusak",
+        "categoria": "Ficção Histórica",
+        "editora": "Intrínseca"
+    },
+    {
+        "id": 14,
+        "titulo": "O Morro dos Ventos Uivantes",
+        "autor": "Emily Brontë",
+        "categoria": "Romance",
+        "editora": "L&PM"
+    },
+    {
+        "id": 15,
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "categoria": "Distopia",
+        "editora": "Companhia das Letras"
+    },
+    {
+        "id": 16,
+        "titulo": "A Revolução dos Bichos",
+        "autor": "George Orwell",
+        "categoria": "Política",
+        "editora": "L&PM"
+    },
+    {
+        "id": 17,
+        "titulo": "Cem Anos de Solidão",
+        "autor": "Gabriel García Márquez",
+        "categoria": "Realismo Mágico",
+        "editora": "Editora Record"
+    },
+    {
+        "id": 18,
+        "titulo": "O Sol é Para Todos",
+        "autor": "Harper Lee",
+        "categoria": "Ficção",
+        "editora": "José Olympio"
+    },
+    {
+        "id": 19,
+        "titulo": "O Apanhador no Campo de Centeio",
+        "autor": "J.D. Salinger",
+        "categoria": "Literatura Americana",
+        "editora": "Alfred A. Knopf"
+    },
+    {
+        "id": 20,
+        "titulo": "O Senhor das Moscas",
+        "autor": "William Golding",
+        "categoria": "Drama",
+        "editora": "Cia das Letras"
+    },
+    {
+        "id": 21,
+        "titulo": "Mestre e Margarida",
+        "autor": "Mikhail Bulgakov",
+        "categoria": "Romance Filosófico",
+        "editora": "Editora 34"
+    },
+    {
+        "id": 22,
+        "titulo": "O Guia do Mochileiro das Galáxias",
+        "autor": "Douglas Adams",
+        "categoria": "Ficção Científica",
+        "editora": "Cia das Letras"
+    },
+    {
+        "id": 23,
+        "titulo": "O Processo",
+        "autor": "Franz Kafka",
+        "categoria": "Literatura Alemã",
+        "editora": "Companhia das Letras"
+    },
+    {
+        "id": 24,
+        "titulo": "O Lado Sombrio",
+        "autor": "Greg Iles",
+        "categoria": "Thriller",
+        "editora": "Arqueiro"
+    },
+    {
+        "id": 25,
+        "titulo": "Drácula",
+        "autor": "Bram Stoker",
+        "categoria": "Terror",
+        "editora": "L&PM"
+    },
+    {
+        "id": 26,
+        "titulo": "O Iluminado",
+        "autor": "Stephen King",
+        "categoria": "Terror",
+        "editora": "Suma"
+    },
+    {
+        "id": 27,
+        "titulo": "O Poderoso Chefão",
+        "autor": "Mario Puzo",
+        "categoria": "Crime",
+        "editora": "Record"
+    },
+    {
+        "id": 28,
+        "titulo": "O Perfume",
+        "autor": "Patrick Süskind",
+        "categoria": "Romance",
+        "editora": "Cia das Letras"
+    },
+    {
+        "id": 29,
+        "titulo": "A Culpa é das Estrelas",
+        "autor": "John Green",
+        "categoria": "Ficção Jovem",
+        "editora": "Intrínseca"
+    },
+    {
+        "id": 30,
+        "titulo": "A Insustentável Leveza do Ser",
+        "autor": "Milan Kundera",
+        "categoria": "Filosofia",
+        "editora": "Record"
+    },
+    {
+        "id": 31,
+        "titulo": "O Hobbit",
+        "autor": "J.R.R. Tolkien",
+        "categoria": "Fantasia",
+        "editora": "HarperCollins Brasil"
+    },
+    {
+        "id": 32,
+        "titulo": "O Último Desejo",
+        "autor": "Andrzej Sapkowski",
+        "categoria": "Fantasia",
+        "editora": "Rocco"
+    },
+    {
+        "id": 33,
+        "titulo": "O Mundo de Sofia",
+        "autor": "Jostein Gaarder",
+        "categoria": "Filosofia",
+        "editora": "Record"
+    },
+    {
+        "id": 34,
+        "titulo": "Crime e Castigo",
+        "autor": "Fiódor Dostoiévski",
+        "categoria": "Clássico",
+        "editora": "Editora 34"
+    },
+    {
+        "id": 35,
+        "titulo": "Ensaio Sobre a Cegueira",
+        "autor": "José Saramago",
+        "categoria": "Ficção",
+        "editora": "Cia das Letras"
+    },
+    {
+        "id": 36,
+        "titulo": "O Nome da Rosa",
+        "autor": "Umberto Eco",
+        "categoria": "Mistério",
+        "editora": "Record"
+    },
+    {
+        "id": 37,
+        "titulo": "O Hobbit",
+        "autor": "J.R.R. Tolkien",
+        "categoria": "Fantasia",
+        "editora": "HarperCollins Brasil"
+    },
+    {
+        "id": 38,
+        "titulo": "O Mundo Perdido",
+        "autor": "Arthur Conan Doyle",
+        "categoria": "Aventura",
+        "editora": "Editora Zahar"
+    },
+    {
+        "id": 39,
+        "titulo": "O Livro dos Espíritos",
+        "autor": "Allan Kardec",
+        "categoria": "Espiritismo",
+        "editora": "FEB"
+    },
+    {
+        "id": 40,
+        "titulo": "O Fim da Eternidade",
+        "autor": "Isaac Asimov",
+        "categoria": "Ficção Científica",
+        "editora": "Aleph"
+    },
+    {
+        "id": 41,
+        "titulo": "Fahrenheit 451",
+        "autor": "Ray Bradbury",
+        "categoria": "Distopia",
+        "editora": "Martins Fontes"
+    },
+    {
+        "id": 42,
+        "titulo": "O Rei Leão",
+        "autor": "Disney",
+        "categoria": "Infantil",
+        "editora": "Abril"
+    },
+    {
+        "id": 43,
+        "titulo": "A Guerra dos Tronos",
+        "autor": "George R. R. Martin",
+        "categoria": "Fantasia",
+        "editora": "Leya"
+    },
+    {
+        "id": 44,
+        "titulo": "O Silmarillion",
+        "autor": "J.R.R. Tolkien",
+        "categoria": "Fantasia",
+        "editora": "HarperCollins Brasil"
+    },
+    {
+        "id": 45,
+        "titulo": "A Origem das Espécies",
+        "autor": "Charles Darwin",
+        "categoria": "Ciência",
+        "editora": "L&PM"
+    },
+    {
+        "id": 46,
+        "titulo": "O Homem do Castelo Alto",
+        "autor": "Philip K. Dick",
+        "categoria": "Distopia",
+        "editora": "Aleph"
+    },
+    {
+        "id": 47,
+        "titulo": "Vingadores - Guerra Infinita",
+        "autor": "Marvel",
+        "categoria": "Quadrinhos",
+        "editora": "Panini"
+    },
+    {
+        "id": 48,
+        "titulo": "A Crônica do Matador do Rei",
+        "autor": "Patrick Rothfuss",
+        "categoria": "Fantasia",
+        "editora": "Record"
+    },
+    {
+        "id": 49,
+        "titulo": "O Hobbit",
+        "autor": "J.R.R. Tolkien",
+        "categoria": "Fantasia",
+        "editora": "HarperCollins"
+    },
+    {
+        "id": 50,
+        "titulo": "Harry Potter e a Ordem da Fênix",
+        "autor": "J.K. Rowling",
+        "categoria": "Fantasia",
+        "editora": "Rocco"
+    },
+    {
+        "id": 51,
+        "titulo": "A Hora da Estrela",
+        "autor": "Clarice Lispector",
+        "categoria": "Literatura Brasileira",
+        "editora": "Rocco"
+    },
+    {
+        "id": 52,
+        "titulo": "O Menino do Pijama Listrado",
+        "autor": "John Boyne",
+        "categoria": "Ficção Histórica",
+        "editora": "Seguinte"
+    },
+    {
+        "id": 53,
+        "titulo": "Eu, Claudius",
+        "autor": "Robert Graves",
+        "categoria": "História",
+        "editora": "Record"
+    },
+    {
+        "id": 54,
+        "titulo": "O Retrato de Dorian Gray",
+        "autor": "Oscar Wilde",
+        "categoria": "Clássico",
+        "editora": "L&PM"
+    },
+    {
+        "id": 55,
+        "titulo": "Laranja Mecânica",
+        "autor": "Anthony Burgess",
+        "categoria": "Distopia",
+        "editora": "Cia das Letras"
+    },
+    {
+        "id": 56,
+        "titulo": "O Cão dos Baskervilles",
+        "autor": "Arthur Conan Doyle",
+        "categoria": "Mistério",
+        "editora": "L&PM"
+    },
+    {
+        "id": 57,
+        "titulo": "O Pequeno Príncipe",
+        "autor": "Antoine de Saint-Exupéry",
+        "categoria": "Infantil",
+        "editora": "Agir"
+    },
+    {
+        "id": 58,
+        "titulo": "O Guardião da Memória",
+        "autor": "Jennifer Egan",
+        "categoria": "Ficção",
+        "editora": "Intrínseca"
+    },
+    {
+        "id": 59,
+        "titulo": "A Culpa é das Estrelas",
+        "autor": "John Green",
+        "categoria": "Ficção Jovem",
+        "editora": "Intrínseca"
+    },
+    {
+        "id": 60,
+        "titulo": "O Manifesto Comunista",
+        "autor": "Karl Marx",
+        "categoria": "Política",
+        "editora": "L&PM"
+    },
+    {
+        "id": 61,
+        "titulo": "O Ladrão de Raios",
+        "autor": "Rick Riordan",
+        "categoria": "Infantil",
+        "editora": "Intrínseca"
+    },
+    {
+        "id": 62,
+        "titulo": "Os Goonies",
+        "autor": "James Kahn",
+        "categoria": "Aventura",
+        "editora": "Cia das Letras"
+    },
+    {
+        "id": 63,
+        "titulo": "Diário de Anne Frank",
+        "autor": "Anne Frank",
+        "categoria": "Memórias",
+        "editora": "Record"
+    },
+    {
+        "id": 64,
+        "titulo": "O Código Da Vinci",
+        "autor": "Dan Brown",
+        "categoria": "Suspense",
+        "editora": "Arqueiro"
+    },
+    {
+        "id": 65,
+        "titulo": "Sherlock Holmes",
+        "autor": "Arthur Conan Doyle",
+        "categoria": "Mistério",
+        "editora": "L&PM"
+    },
+    {
+        "id": 66,
+        "titulo": "A Trilogia Jogos Vorazes",
+        "autor": "Suzanne Collins",
+        "categoria": "Distopia",
+        "editora": "Rocco"
+    },
+    {
+        "id": 67,
+        "titulo": "Matar a Saudade",
+        "autor": "João Guimarães Rosa",
+        "categoria": "Literatura Brasileira",
+        "editora": "Companhia das Letras"
+    },
+    {
+        "id": 68,
+        "titulo": "A Batalha do Apocalipse",
+        "autor": "Eduardo Spohr",
+        "categoria": "Ficção Fantástica",
+        "editora": "Verus"
+    },
+    {
+        "id": 69,
+        "titulo": "O Último dos Moicanos",
+        "autor": "James Fenimore Cooper",
+        "categoria": "Clássico",
+        "editora": "L&PM"
+    },
+    {
+        "id": 70,
+        "titulo": "A Trilogia do Senhor dos Anéis",
+        "autor": "J.R.R. Tolkien",
+        "categoria": "Fantasia",
+        "editora": "HarperCollins"
+    },
+    {
+        "id": 71,
+        "titulo": "O Senhor dos Anéis",
+        "autor": "J.R.R. Tolkien",
+        "categoria": "Fantasia",
+        "editora": "HarperCollins Brasil"
+    },
+    {
+        "id": 72,
+        "titulo": "O Ciclo da Herança",
+        "autor": "Christopher Paolini",
+        "categoria": "Fantasia",
+        "editora": "Rocco"
+    },
+    {
+        "id": 73,
+        "titulo": "O Homem de Giz",
+        "autor": "C.J. Tudor",
+        "categoria": "Thriller",
+        "editora": "Intrínseca"
+    },
+    {
+        "id": 74,
+        "titulo": "O Cemitério",
+        "autor": "Stephen King",
+        "categoria": "Terror",
+        "editora": "Suma"
+    },
+    {
+        "id": 75,
+        "titulo": "Memórias Póstumas de Brás Cubas",
+        "autor": "Machado de Assis",
+        "categoria": "Literatura Brasileira",
+        "editora": "L&PM"
     }
+   
 ]
